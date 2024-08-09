@@ -1,0 +1,237 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.back-2-icon,
+.history-1-icon1 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.content,
+.history-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.history-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2px 0 0;
+}
+
+.content {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.status-child {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.container1 {
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    padding-left: 28px;
+    padding-right: 28px;
+    box-sizing: border-box;
+}
+
+.status-child,
+.status-item {
+    height: 146.5px;
+    width: 1130.5px;
+    position: relative;
+    display: none;
+}
+
+.status-child {
+    border-radius: 40px;
+    background-color: rgba(255, 245, 224, 0.88);
+    border: 0.3px solid #000;
+}
+
+.status-item {
+    background-color: #141e46;
+    border-radius: 40px;
+}
+
+.mask-group-icon7 {
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.mask-group-icon6 {
+    height: 150px;
+    border-radius: 20px;
+    width: auto !important;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.mask-group-icon7 {
+    align-self: stretch;
+    width: 144px;
+    max-height: 100%;
+    min-height: 110px;
+}
+
+.jumat-23-februari1,
+.pasar-setan3,
+.plaza-araya-xxi1,
+.tiket-2,
+.lampir1,
+.plaza-araya-xxi2,
+.senin-20-februari,
+.tiket-3 {
+    display: block;
+}
+
+.pasar-setan-plaza-container,
+.lampir-plaza-araya-container {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+}
+
+.info,
+.result,
+.lampir-plaza-araya-xxi-tiket-wrapper,
+.mask-group-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.info,
+.lampir-plaza-araya-xxi-tiket-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+    min-width: 199px;
+}
+
+.result,
+.mask-group-parent1 {
+    width: 476px;
+    flex-direction: row;
+    gap: 26px;
+    max-width: 100%;
+}
+
+.berhasil {
+    align-self: stretch;
+    position: relative;
+    font-style: italic;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.confirmation,
+.berhasil-wrapper {
+    width: 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 45px 0 0;
+    box-sizing: border-box;
+}
+
+.status {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; /* Center horizontally */
+    background-color: rgba(255, 245, 224, 0.88);
+    border: 0.3px solid #000;
+    border-radius: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 17px 45px 17px 31px;
+}
+
+.ticket {
+    margin-bottom: 20px; /* Increase the bottom margin to create space between tickets */
+    align-self: stretch;
+    max-width: 100%;
+}
+
+.history1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px 0; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1125px) {
+    .status {
+        padding-right: 22px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .status {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .mask-group-icon6,
+    .mask-group-icon7 {
+        flex: 1;
+    }
+    .result,
+    .mask-group-parent1 {
+        flex-wrap: wrap;
+    }
+    .history1 {
+        padding-left: 37px;
+        padding-right: 37px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .content {
+        flex-wrap: wrap;
+    }
+    .ticket {
+        margin-bottom: 15px;
+    }
+    .berhasil,
+    .lampir-plaza-araya-container,
+    .pasar-setan-plaza-container {
+        font-size: 16px;
+    }
+}

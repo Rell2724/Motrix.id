@@ -1,0 +1,459 @@
+.frame-child28 {
+  height: 452px;
+  width: 1133px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #141e46;
+  display: none;
+  max-width: 100%;
+}
+.pasar-setan2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.mask-group-icon5 {
+  height: 310px;
+  border-radius: 20px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 159px;
+  z-index: 1;
+}
+.blank-line,
+.blank-line1,
+.blank-line2,
+.blank-line3,
+.blank-line4,
+.jam-1420,
+.jumat-23-februari,
+.kode-booking,
+.studio-3,
+.tiket-b6 {
+  margin: 0;
+}
+.jumat-23-februari-container {
+  align-self: stretch;
+  height: 219px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.jumat-23-februari-2024-jam-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 45px 0 0;
+  box-sizing: border-box;
+  min-width: 153px;
+}
+.jumat-23-februari-2024-jam-wrapper,
+.mask-group-container,
+.pasar-setan-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mask-group-container {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 21px;
+  font-size: 20px;
+}
+.pasar-setan-parent {
+  width: 502px;
+  flex-direction: column;
+  gap: 30px;
+  min-width: 502px;
+  max-width: 100%;
+}
+.plaza-araya-xxi {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.frame-child29 {
+  height: 35px;
+  width: 182px;
+  position: relative;
+  background-color: #fff5e0;
+  display: none;
+}
+.div3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 2;
+}
+.rectangle-parent10 {
+  background-color: #fff5e0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 55px 5px;
+  z-index: 1;
+}
+.cancel-back {
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.cancel-back-wrapper,
+.frame-parent11,
+.plaza-araya-xxi-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cancel-back-wrapper {
+  flex-direction: row;
+  padding: 0 24px;
+  text-align: justify;
+  color: #fff;
+}
+.frame-parent11,
+.plaza-araya-xxi-parent {
+  flex-direction: column;
+}
+.frame-parent11 {
+  gap: 13px;
+  font-size: 20px;
+  color: #141e46;
+}
+.plaza-araya-xxi-parent {
+  gap: 294px;
+  min-width: 182px;
+}
+.group-div,
+.payment-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.group-div {
+  flex: 1;
+  border-radius: 30px;
+  background-color: #141e46;
+  justify-content: space-between;
+  padding: 41px 86px 16px 87px;
+  gap: 20px;
+}
+.payment-inner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 31px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+.pilih-pembayaran {
+  position: relative;
+  font-weight: 600;
+}
+.pilih-pembayaran-wrapper {
+  width: 341px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.transfer-bank-button-child {
+  height: 42.5px;
+  width: 281.5px;
+  position: relative;
+  border-radius: 30px;
+  background-color: rgba(255, 245, 224, 0.88);
+  border: 0.3px solid #000;
+  box-sizing: border-box;
+  display: none;
+}
+.transfer-bank {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+  z-index: 1;
+}
+.transfer-bank-button {
+  cursor: pointer;
+  border: 0.3px solid #000;
+  padding: 8px 73px;
+  background-color: rgba(255, 245, 224, 0.88);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.shopee-button,
+.transfer-bank-button:hover {
+  background-color: rgba(230, 219, 199, 0.88);
+  border: 0.3px solid #333;
+  box-sizing: border-box;
+}
+.shopee-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: rgba(255, 245, 224, 0.88);
+  border: 0.3px solid #000;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.qris {
+  position: absolute;
+  top: 9px;
+  left: 117px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+  z-index: 1;
+}
+.shopee-button-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 42px;
+  position: relative;
+}
+.transfer-bank-button-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  min-width: 183px;
+}
+.frame-child30 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #ea501f;
+  cursor: pointer;
+}
+.shopee {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+  z-index: 1;
+}
+.shopee-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11px 0 0;
+}
+.icon-shopee-png-1 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent13 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frame-child31 {
+  height: 33px;
+  width: 220px;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  display: none;
+}
+.empty-label {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 2;
+}
+.rectangle-parent11,
+.rectangle-parent12 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent12 {
+  cursor: pointer;
+  border: 0;
+  padding: 5px 73px 4px;
+  background-color: #fff;
+  border-radius: 30px;
+  flex-direction: row;
+  z-index: 1;
+}
+.rectangle-parent12:hover {
+  background-color: #e6e6e6;
+}
+.rectangle-parent11 {
+  flex: 0.7829;
+  flex-direction: column;
+  padding: 10px 29px 17px 32px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 3px;
+  min-width: 183px;
+}
+.frame-parent12,
+.payment-child {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.frame-parent12 {
+  width: 626px;
+  gap: 64px;
+}
+.payment-child {
+  width: 800px;
+}
+.back-1-icon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin: 0 !important;
+  top: -913px;
+  left: 103px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.payment {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 61px 73px 108px;
+  box-sizing: border-box;
+  gap: 24px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1125px) {
+  .group-div {
+    padding-left: 43px;
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .pasar-setan-parent {
+    flex: 1;
+    min-width: 100%;
+  }
+  .plaza-araya-xxi-parent {
+    flex: 1;
+  }
+  .group-div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mask-group-container {
+    flex-wrap: wrap;
+  }
+  .group-div {
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+  .rectangle-parent11,
+  .transfer-bank-button-parent {
+    flex: 1;
+  }
+  .frame-parent12 {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .payment {
+    padding-left: 36px;
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pasar-setan2 {
+    font-size: 19px;
+  }
+  .jumat-23-februari-container {
+    font-size: 16px;
+  }
+  .plaza-araya-xxi {
+    font-size: 19px;
+  }
+  .cancel-back,
+  .div3 {
+    font-size: 16px;
+  }
+  .group-div {
+    padding-top: 27px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .pilih-pembayaran {
+    font-size: 16px;
+  }
+  .transfer-bank-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .empty-label,
+  .qris,
+  .shopee {
+    font-size: 16px;
+  }
+  .frame-parent12 {
+    gap: 16px;
+  }
+}

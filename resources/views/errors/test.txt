@@ -1,0 +1,25 @@
+
+                        <!--    strtolower($value->seatcol) == strtolower($letter): This line is comparing the seatcol value of each seat in the $availableseats collection 
+                                with the current $letter in the loop. The strtolower function is used to convert both values to lowercase to ensure the comparison is case-insensitive.
+
+                                $availableseats->first(function($value) use($letter, $number) {...}): This line is using the first method of the Laravel collection 
+                                to find the first seat in the $availableseats collection that matches the conditions specified in the callback function. 
+                                The use keyword is used to import the $letter and $number variables into the scope of the callback function.  
+
+                                $occupiedseats->firstWhere('seat_id', $seat->seat_id): This line is using the firstWhere method of the Laravel collection to find 
+                                the first seat in the $occupiedseats collection where the seat_id is equal to the seat_id of the current $seat.  
+
+                                $showSeat ? 'booked' : '': This line is using the ternary operator to check if $showSeat is truthy (i.e., not null, not false, 
+                                not 0, not an empty string, etc.). If $showSeat is truthy, it means the seat is occupied, so the string 'booked' is returned. 
+                                If $showSeat is falsy, it means the seat is not occupied, so an empty string is returned.
+
+                                @if($seat) {...} @endif: This block is using the @if directive of the Blade templating engine to check if $seat is not null. 
+                                If $seat is not null, it means a seat was found in the $availableseats collection that matches the conditions specified in the callback function, 
+                                so the code inside the @if block is executed. If $seat is null, it means no matching seat was found, so the code inside the @if block is skipped.
+
+                                @foreach($seatRows as $letter) {...} @endforeach: This block is using the @foreach directive of the Blade templating engine to loop over each element in the $seatRows array. 
+                                For each iteration, the current element is assigned to the $letter variable and the code inside the @foreach block is executed.
+
+                                @foreach(range(14, 1) as $number) {...} @endforeach: This block is using the @foreach directive of the Blade templating engine to loop over each number in the range from 14 to 1. 
+                                For each iteration, the current number is assigned to the $number variable and the code inside the @foreach block is executed. -->
+                    </div>
